@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SDET Account Suite" parallel="false">
+  <test name="Create Account Test">
+  	<classes>
+  	  <class name="testScripts.NewAccountDDTTestNG"/>
+    </classes>
+  </test>
+  <test name="Login Test">
+  	<classes>
+  	  <class name="testScripts.LoginDDT"/>
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
